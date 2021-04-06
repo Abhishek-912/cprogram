@@ -1,6 +1,6 @@
   
 #include <stdio.h>
-void bigg3() {
+void big3() {
     int number;
 
     printf("Give an integer: ");
