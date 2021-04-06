@@ -2,6 +2,6 @@
 
 main()
      {
-             bigg3();
+             big3();
              facto();
       }
