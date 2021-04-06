@@ -2,14 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('STAGE1') {
             steps {
+	    echo "these is stage1"
                 sh '''
-					#!/bin/bash
-					echo "check 1"
-					git clone https://github.com/Abhishek-912/cprogram.git
-					cd cprogram
-					make
+		sleep5
+					
 					'''
             }
         }
